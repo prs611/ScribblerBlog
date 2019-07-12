@@ -1,13 +1,23 @@
 function EditSaveClicked()
 {
     let variable1 = document.getElementById("edit-save");
+    let UpdateHeading = document.getElementById("blogTitleNew") ;
+    let UpdatePara = document.getElementById("blogBody") ;
     if(variable1.textContent.includes('Edit'))
     {
-        variable1.innerHTML = 'Save &#x1f4be;'
+        variable1.innerHTML = 'Save &#x1f4be;' ;
+        UpdateHeading.setAttribute('contenteditable' , "true") ;
+        UpdatePara.setAttribute('contenteditable' , 'true') ;
+        UpdateHeading.style.border = '1px black solid' ;
+        UpdatePara.style.border = '1px black solid' ;
     }
     else if(variable1.textContent.includes('Save'))
     {
         variable1.innerHTML = 'Edit &#x270D;'
+        UpdateHeading.setAttribute('contenteditable' , "false") ;
+        UpdatePara.setAttribute('contenteditable' , 'false') ;
+        UpdateHeading.style.border = '';
+        UpdatePara.style.border = '' ;
     }
     
 }
@@ -22,6 +32,6 @@ function incLikes()
    }
    else
    {
-    ContentChange.innerHTML =`${likes} person like this !` ;
+    ContentChange.innerHTML =`${likes} people like this !` ;
    }
 }

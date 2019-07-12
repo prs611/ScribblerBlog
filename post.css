@@ -94,10 +94,13 @@ body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    align-content: flex-end ;
   margin: 30px ;
+ 
 }
-.blogTitleNew
+#blogTitleNew
 {
-  align-content: center
+  text-align: center;
+  
+  
 }
 #footer-buttons
 {
