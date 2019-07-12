@@ -14,11 +14,11 @@
   <div id = "postButtons">
       <p align = "center">
           <a href = "bloglist.html">
-            <button id= "Middle-Button">
+            <button class= "Middle-Button">
               All Posts 
             </button>
           </a>
-          <button id = "Middle-Button">
+          <button class = "Middle-Button" id = "Create-Post-Modal">
             Create Post 
           </button>
       </p>
@@ -66,6 +66,20 @@
     </p>
   </div>
 </div>
+<div id="myModal3" class="modal">                  
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>
+        <h2><pre>    Create Your Post</pre></h2>
+        <hr class = "hr-shade">
+        <h4>Title</h4>
+        <input type="text" placeholder="Enter Title Here">
+        <h4>Content</h4>
+        <textarea name="Content" id="textAreaViaModal" cols="35" rows="10"></textarea>  
+        <button class = sign-up-button>Create</button>    
+      </p>
+    </div>
+  </div>
 <script src = "index.js"></script>
 </body>
 </html>
