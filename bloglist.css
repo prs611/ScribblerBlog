@@ -28,6 +28,12 @@ body{
 #row-three{
   flex: 0.46;
 }
+#model-for-Bloglist
+{
+  align-content: center ;
+  position: relative 
+
+  }
 
 .post {
     position: relative;
@@ -115,28 +121,27 @@ body{
   }
   #yes-btn
   {
-     
 	background-color: red;
-    display: inline-block;
+     
     color: white;
     float: left;
     border: none;
-    width: 100px;
+    width: 40%;
     padding: 8px;
-    height: 30px;
+    position: relative ;
+    bottom: 10px ;
   }
   #no-btn
-  {
-      
+  {  
 	background-color: green;
     float: right;
     border: none;
-    display: inline-block;
     color: white;
     width: 55px;
-    width: 100px;
-    height: 30px;
+    width: 40%;
     padding: 8px;
+    position: relative ;
+    bottom: 10px
   }
   .modal-content {
     position: relative;
@@ -146,4 +151,4 @@ body{
     padding: 20px;
     border: 1px solid #888;
     width: 44%;
-}s
+}
