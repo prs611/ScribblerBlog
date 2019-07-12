@@ -92,13 +92,34 @@ body{
 }
 .blogText {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+   align-content: flex-end ;
+  margin: 30px ;
+}
+.blogTitleNew
+{
+  align-content: center
+}
+#footer-buttons
+{
+  margin: 30px ;
 }
 .blogAuthor {
   padding: 0px 0px 0px 10px;
   font-family: 'Niconne', cursive;
   font-size: 30px;
 }
-.blogContent{
-
+#like-press
+{
+  background-color:#ef3b65;
+  width: 100px;
+}
+#comment-press
+{
+  background-color:#ef3b65;
+  width: 100px;
+}
+#edit-save
+{
+  width: 100px ;
+  float: right ;
 }
