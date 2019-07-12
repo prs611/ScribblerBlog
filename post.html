@@ -4,6 +4,7 @@
         <link href='post.css' rel='stylesheet' type='text/css'>  
         <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
         <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+        <link href='header.css' rel='stylesheet' type='text/css'>  
 </head>
 <body>    
         <div class="header">
@@ -43,12 +44,46 @@
         </textarea><br>
         <button id ="comment-press">Comment</button>
     </div>
+    <div id="myModal" class="modal">                  
+            <div class="modal-content">
+             <span class="close">&times;</span>
+              <p>
+                <h1>Get Started</h1>
+                <hr class = "hr-Shade">
+                <form class = "form-style">
+                <label>Full Name</label><br>
+                <input type="text" placeholder="Enter Full Name" required>      <br>           
+                <label>Username</label><br>
+                <input type="text" placeholder="Enter Username" required><br>                
+                <label>Password </label><br>
+                <input type="password" placeholder="Enter Password" required><br>                  
+                <label>Confirm Password</label><br>
+                <input type="password" placeholder="Confirm Password" required><br>                 
+                <button class = "Sign-Up-Button">Sign Up</button>
+                </form>       
+              </p>
+            </div>
+          </div>
+                   <!-- For Sign In -->
+          <div id="myModal2" class="modal">                  
+            <div class="modal-content">
+             <span class="close">&times;</span>
+              <p>
+                <h1>Welcome Back</h1>
+                <hr class = "hr-Shade">
+                <form class = "form-style">   
+                  <label>Username</label>
+                  <input type="text" placeholder="Enter Username" required>
+                  <label>Password</label>
+                  <input type="password" placeholder="Enter Password" required>
+                <button class = "Sign-Up-Button">Sign In</button><br>
+                Not a member ? <a onclick="">Sign Up</a>
+                </form>       
+              </p>
+            </div>
+          </div>
 
-    <script src="..\js\post.js" defer></script>
-    <script src="..\js\header.js">             
-    </script>
     
-</body>
 
         <script src = "post.js"></script>
 </body>
