@@ -68,3 +68,11 @@ window.onclick = function(event) {
     modal2.style.display = "none";
   }
 }
+function AddComment()
+{
+  let CommentToAdd = document.getElementById("text-area");
+  let ShowComment = document.getElementById("addedComments") ;
+  // ShowComment.innerHTML = `${CommentToAdd}` ;
+  console.log(CommentToAdd) ;
+
+}
