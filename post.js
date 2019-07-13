@@ -32,7 +32,7 @@ function incLikes()
    }
    else
    {
-    ContentChange.innerHTML =`${likes} people have like this !` ;
+    ContentChange.innerHTML =`${likes} people have liked this !` ;
    }
 }
 //Adding modal properties and funcrioning
